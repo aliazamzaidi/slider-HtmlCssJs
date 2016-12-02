@@ -1,0 +1,39 @@
+body{
+    background-color: green !important;
+    width: 100%;
+}
+.container-custom{
+    width: 105ex;
+    height: 51ex;
+    background-color:lightgrey;
+    border: 0px;
+    border-radius: 2em;
+    position: absolute;
+    margin: 8.4em 22%;
+}
+.Slider{
+    position: relative;
+    height: 89%;
+    width: 100%;
+    background-color: white;
+    border: 0px;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+.button-portion{
+    float: right;
+    padding-right:1.6em;
+    padding-top: 0.4em;
+    padding-bottom: 0.2em;
+}
+div.Slider>img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 2em;
+     border-top-left-radius: 2em;
+    /*background-color: red;*/
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border: 0px;
+}
