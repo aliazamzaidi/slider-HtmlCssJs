@@ -17,14 +17,15 @@ body{
     width: 100%;
     background-color: white;
     border: 0px;
-    border-top-left-radius: 2em;
-    border-top-right-radius: 2em;
+    /*border-top-left-radius: 2em;
+    border-top-right-radius: 2em;*/
+    border-radius: 2em;
 }
 .button-portion{
     float: right;
     padding-right:1.6em;
     padding-top: 0.4em;
-    padding-bottom: 0.2em;
+    padding-bottom: 0.4em;
 }
 div.Slider>img{
     position: relative;
@@ -36,4 +37,12 @@ div.Slider>img{
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
     border: 0px;
+}
+.heading{
+    height: 4em;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    background-color: grey;
+    border-radius: 1em;
 }
